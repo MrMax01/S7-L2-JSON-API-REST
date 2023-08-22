@@ -1,7 +1,7 @@
-window.onload = () => {
-  count = sessionStorage.getItem("contatore");
-};
+// window.onload = () => {
+// };
 let count = 0;
+count = sessionStorage.getItem("contatore");
 const h1 = document.getElementById("count");
 
 setInterval(() => {
